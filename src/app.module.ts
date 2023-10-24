@@ -12,7 +12,7 @@ import { SeedModule } from './seed/seed.module';
       rootPath: join(__dirname,'..','public')
     }),
 
-    MongooseModule.forRoot('mongodb+srv://jplantes:react-native-back-end@cluster0.udp02mo.mongodb.net/nest-pokemon'),
+    MongooseModule.forRoot(''),
     
     PokemonModule,
     CommonModule,
